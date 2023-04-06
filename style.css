@@ -2,27 +2,39 @@
 	--clr: hsl(70, 73%, 88%);
 	--bg: hsl(240, 93%, 6%);
 	--accent: hsl(38, 49%, 62%);
+	--fs-h1: clamp(2em, 3vw, 3vw);
+	--fs: clamp(1em, 1.5vw, 1.5vw);
 }
+
 li,
-p {
+p,
+a {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 1.5vw;
+	font-size: var(--fs);
 }
 h1 {
-	font-size: 3vw;
+	font-size: var(--fs-h1);
 }
-.body-clr {
-	background-color: var(--bg);
-	color: var(--clr);
-}
+
 a {
 	color: var(--accent);
 	text-underline-offset: 0.3em;
 	text-decoration-style: dashed;
 }
+
 a:hover {
 	color: var(--clr);
 	text-decoration: underline;
+}
+.body-clr {
+	background-color: var(--bg);
+	background: linear-gradient(var(--bg) 95%, transparent);
+	background-repeat: no-repeat;
+	color: var(--clr);
+}
+
+.mh-80vh {
+	min-height: 80vh;
 }
 .p-2em {
 	padding: 2em;
