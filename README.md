@@ -1,7 +1,7 @@
 ---
-##### Old Projects from Aulab, Front-end no CMS.
+# Old Aulab projects, Front-end with no CMS.
 ---
-# Project Links:
+## Project Links:
 <ol>
 <li>
 <a href="https://marco-mero.github.io/Front-End-Replicas/Project-Red/index.html"> Project Red (First Project) </a>
