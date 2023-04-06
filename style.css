@@ -1,11 +1,14 @@
 :root {
-	--clr: hsl(70, 73%, 88%);
-	--bg: hsl(240, 93%, 6%);
+	--clr: hsl(70, 50%, 80%);
+	--bg: hsl(240, 70%, 6%);
 	--accent: hsl(38, 49%, 62%);
+	--dark-accent: hsl(38, 49%, 2%);
 	--fs-h1: clamp(2em, 3vw, 3vw);
 	--fs: clamp(1em, 1.5vw, 1.5vw);
 }
-
+html {
+	background-color: var(--dark-accent);
+}
 li,
 p,
 a {
