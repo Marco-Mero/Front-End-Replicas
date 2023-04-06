@@ -39,12 +39,12 @@ a:hover {
 }
 .repod details[open] {
 	display: block;
-	padding-left: 2em;
 	position: relative;
+	padding-left: 2em;
 }
 .repod details[open] > summary {
 	position: absolute;
-	left: 0;
+	left: 1em;
 }
 
 .body-clr {
