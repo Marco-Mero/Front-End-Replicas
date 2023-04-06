@@ -3,17 +3,21 @@
 	--bg: hsl(240, 70%, 6%);
 	--accent: hsl(38, 49%, 62%);
 	--dark-accent: hsl(38, 49%, 2%);
-	--fs-h1: clamp(2em, 3vw, 3vw);
+	--fs-h1: clamp(2em, 4vw, 4vw);
 	--fs: clamp(1em, 1.5vw, 1.5vw);
 }
 html {
 	background-color: var(--dark-accent);
 }
+
 li,
 p,
 a {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	font-size: var(--fs);
+}
+li {
+	padding-bottom: 0.4em;
 }
 h1 {
 	font-size: var(--fs-h1);
@@ -29,6 +33,20 @@ a:hover {
 	color: var(--clr);
 	text-decoration: underline;
 }
+
+.repod details {
+	display: inline;
+}
+.repod details[open] {
+	display: block;
+	padding-left: 2em;
+	position: relative;
+}
+.repod details[open] > summary {
+	position: absolute;
+	left: 0;
+}
+
 .body-clr {
 	background-color: var(--bg);
 	background: linear-gradient(var(--bg) 95%, transparent);
@@ -41,4 +59,7 @@ a:hover {
 }
 .p-2em {
 	padding: 2em;
+}
+.pw-2em {
+	padding-inline: 2em;
 }
