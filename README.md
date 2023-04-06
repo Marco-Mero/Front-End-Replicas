@@ -6,10 +6,10 @@
 <a href="https://marco-mero.github.io/Front-End-Replicas/Project-Red/index.html"> Project Red (First Project) </a>
 </li>
 <li>
-<a href="../..//Project-Black/index.html"> Project Black (Second Project) </a>
+<a href="https://marco-mero.github.io/Front-End-Replicas/Project-Black/index.html"> Project Black (Second Project) </a>
 </li>
 <li>
-<a href="../..//Project-Blue/index.html">
+<a href="https://marco-mero.github.io/Front-End-Replicas/Project-Blue/index.html">
 Project Blue (Third Project, collaborative)
 </a>
 </li>
