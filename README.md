@@ -1,3 +1,4 @@
+###### Note that the third project was a collaborative effort, made with the intent to use Git.
 ---
 # Old Aulab projects, Front-end with no CMS.
 
