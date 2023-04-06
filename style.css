@@ -6,6 +6,10 @@
 li,
 p {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.5vw;
+}
+h1 {
+	font-size: 3vw;
 }
 .body-clr {
 	background-color: var(--bg);
@@ -21,8 +25,4 @@ a:hover {
 }
 .p-2em {
 	padding: 2em;
-}
-footer {
-	position: absolute;
-	bottom: 0;
 }
