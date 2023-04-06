@@ -1,3 +1,22 @@
-li {
+:root {
+	--clr: hsl(70, 73%, 88%);
+	--bg: hsl(240, 93%, 6%);
+}
+li,
+p {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.body-clr {
+	background-color: var(--bg);
+	color: var(--clr);
+}
+.body-clr a {
+	color: rgb(206, 206, 112);
+}
+.p-2em {
+	padding: 2em;
+}
+footer {
+	position: absolute;
+	bottom: 0;
 }
