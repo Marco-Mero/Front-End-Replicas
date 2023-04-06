@@ -1,6 +1,6 @@
 ###### Note that the third project was a collaborative effort, made with the intent to use Git in a group environment.
-- All links and buttons in the project are inactive, as this is just a demo.
----
+###### All links and buttons in the projects are inactive and text is filler, as this is just an instructional demo.
+- ---
 # Old Aulab projects, Responsive Front-end with no CMS.
 
 ## Project Links:
