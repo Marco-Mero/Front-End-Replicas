@@ -1,6 +1,6 @@
 ###### Note that the third project was a collaborative effort, made with the intent to use Git in a group environment.
 ---
-# Old Aulab projects, Front-end with no CMS.
+# Old Aulab projects, Responsive Front-end with no CMS.
 
 ## Project Links:
 <ol>
