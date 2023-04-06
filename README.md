@@ -21,6 +21,6 @@ These projects are simple, but showcase my basic (at the time) understanding of 
 
 ---
 ###### Note
-- Prompts provided for each project in the form of jpg, that we had to replicate with CSS and HTML
+- Prompts provided for each project in the form of jpg, that we had to replicate with CSS and HTML.
 ---
 ### Thanks for reading!
