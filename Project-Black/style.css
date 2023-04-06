@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Orbitron&display=swap');
+
+:root{
+
+    --main-color:black;
+    --secondary-color:white;
+    --accent-color:#2B9DF4;
+    --title-font: 'Orbitron', sans-serif;
+    --main-font: 'Jura', sans-serif;  
+}
+
+.color-accent{
+    color:var(--accent-color);
+}
+
+.bg-main{
+  background-color: var(--main-color); 
+}
+
+/* navbar stuff */
+.border-bot-2{
+    border-bottom:1.5px solid var(--secondary-color);
+}
+
+.rotate-moon{
+    transform: rotate(-19deg);
+}
+
+nav {
+    font-size: 0.8rem;
+}
+
+/* general fonts */
+
+*{
+    font-family: var(--main-font);
+}
+
+
+h1,h2,h3,h4,.h1,.h2,.h3,.h4{
+    font-family:var(--title-font);
+}
+.h5,.h6{
+    font-family: var(--main-font);
+}
+a{
+    color:var(--secondary-color);
+    text-decoration: none;
+    opacity: 80%;    
+}
+
+a:hover{
+    color:var(--secondary-color);
+    opacity: 100%;    
+    text-shadow: 
+    -.5px 0px 2px var(--accent-color),
+    .5px 0px 2px var(--accent-color),
+    0px .5px 2px var(--accent-color),
+    0px -.5px 2px var(--accent-color); 
+    
+}
+
+a:active{
+    color:var(--accent-color);
+    text-shadow: none;
+}
+
+
+
+/* header bg and size*/
+.header-size-bg{
+    
+    height:70vh;
+    
+    
+    background:radial-gradient(rgba(255, 255, 255, 0), var(--main-color)70%), url(./Prompt/media/moon.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;  
+    
+}
+
+@media screen and (width<920px) {
+    
+    .header-size-bg{
+        
+        height:50vh;
+
+        
+        background:radial-gradient(rgba(255, 255, 255, 0), var(--main-color)40%), url(./Prompt/media/moon.jpg);
+        
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        
+        
+    }
+    
+}
+
+/*weird date*/
+.border-bot-accent{
+    border-bottom: 1px solid var(--accent-color);
+}
+
+/*bg Lunetta*/
+.bg-lunetta{
+    background: url(./Prompt/media/moon2.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+/* cornered goto and media queries*/
+
+.cornered-goto {
+    position: relative;
+        
+    display: flex;
+    height: 50px;
+    width: 120px;
+  
+    border: 5px solid var(--accent-color);
+    color: var(--main-color);
+    justify-content: center;
+    align-items: center;
+  }
+
+.cornered-goto::after {
+    position: absolute;
+    text-align: center;
+    content: 'Go to';
+    color:white;
+    height: 25px;
+    width: 120px;
+    background: var(--main-color);
+    /* background:green; */
+  }
+  
+  .cornered-goto::before {
+    position: absolute;
+    content: '';
+    height: 50px;
+    width: 95px;   
+    background: var(--main-color);
+    /* background:green; */
+  }
+
+/* footer */
+
+.bg-sunrise{
+    background:linear-gradient(rgba(0,0,0,0), var(--main-color)95%),linear-gradient(var(--main-color), rgba(0,0,0,0)15%), url(./Prompt/media/sunrise-1765027_1920.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+/* linea dopo il footer */
+
+.line-end{
+    height:.5em;
+    width:75%;
+    position: relative;
+    left:12.5%;
+    
+    background: radial-gradient(rgba(0,0,0,0), var(--main-color)50%), var(--accent-color);
+
+}

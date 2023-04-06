@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+:root{
+    --white:rgb(255, 255, 255);
+    --accent:rgb(255, 193, 6);
+    --titles-color: rgb(21, 102, 192);
+    --black: rgb(0, 0, 0);  
+    --main-font: 'Roboto', sans-serif;
+    --title-font: 'Righteous', cursive;
+}
+
+*{
+    font-family: var(--main-font);
+    color:var(--black);
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: var(--title-font);
+}
+
+h2,h3,.h2,.h3{
+    color:var(--titles-color);
+}
+
+.textWhite{
+    color:var(--white);
+}
+.textAccent{
+    color:var(--accent);
+}
+
+/* Mattia */
+.headerBG{
+
+    background:
+    url(./PROMPT/media/wave2.svg),
+    url(./PROMPT/media/wave1.svg),
+    linear-gradient(black, transparent),
+    url(./PROMPT/media/header.jpg); 
+
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom, bottom 45%, center, center;
+
+
+}
+
+.btnHeaderCustom{
+
+    width: 10vw;
+    height: 7vh;
+    background-color: var(--accent);
+    border: none;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+
+/* Daniele */
+.card-sea{
+    border: 2px solid black;
+    min-height: 40vh;
+    width: 35vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.19), rgba(128, 128, 128, 0.641), rgba(0, 0, 0, 0.453)), url(./PROMPT/media/1.png);
+    margin-top: 10px;
+    
+}
+.card-sea-h4{
+border-bottom: 3px solid var(--accent);
+margin-left: 7px;
+margin-right: 7px;
+margin-top: 20px;
+}
+
+.card-sea-text{
+
+font-size: x-small;
+margin-top: 45px;
+margin-left: 7px;
+
+}
+.icon-card-sea{
+
+    margin-left: 7px;
+    margin-top: 40px;
+    
+}
+/* Paolo */
+
+
+.cardelirio__icon{
+    display: block;
+    height: 100px;
+    width: 100px;
+
+    border-radius:20px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.20);
+
+}
+
+.foto-tonda{
+
+    border: 4px solid var(--titles-color);
+    border-radius: 50%;
+    padding: 10px;
+    
+
+}
+/* Marco */
+
+.cardelirio{
+    border-radius:20px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.104);
+
+}
+.cardelirio i{
+    color:var(--titles-color)
+}
+
+/* Piero */
+
+/* Timeline */
+.border-right{
+   border-right: 3px solid var(--titles-color);
+   position: relative;
+   
+}
+
+/* pallini timeline */
+.border-right::after{
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 2px solid var(--titles-color);
+    position: absolute;
+
+    top: 0px;
+    left:98%
+
+}
+
+
+/* Footer */
+
+.img-footer{
+
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255), rgba(10, 10, 10, 0.39), rgb(7, 7, 7)), url(./PROMPT/media/footer.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+    
+}
+
+.h3-footer{
+
+    color: var(--accent);
+
+}

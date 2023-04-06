@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- page specific tags!! -->
+    <title>Project Black</title>
+    <meta name="author" content="Marco Mero">
+    <meta name="description" content="ProjectBlack">
+    
+    <!-- font-awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Bootstrap Style inclusion -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+    <!-- Your own Style here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-main text-white">
+    
+    <!-- Navbar custom La luna è un'icona di FA ruotata di -18°, le colonne sono larghe 2 mentre su dispositivi più grandi sono larghe 1 e non hanno padding né gutter per ottimizzare lo spazio fra i link -->
+    <nav class="container-fluid py-3 border-bot-2">
+        
+        <div class="row align-items-center g-md-0">
+            
+            <div class="col-2 col-md-1">
+                <i class="fa-solid fa-moon fa-2x rotate-moon"></i>
+            </div>
+            
+            <div class="col-2 col-md-1 p-0">
+                <a href="">Link 1</a>
+            </div>
+            
+            <div class="col-2 col-md-1 p-0">
+                <a href="">Link 2</a>
+            </div>
+            
+            <div class="col-2 col-md-1 p-0">
+                <a href="">Link 3</a>
+            </div>
+            
+            <div class="col-2 col-md-1 p-0">
+                <a href="">Link 4</a>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        
+        <!-- Utilizzo lo stesso container-fluid per contenere tutto l'header e le date strambe -->
+        
+        <div class="container-fluid">
+
+            <header title="BigMoon" class="row header-size-bg pt-4 p-lg-5 text-center  text-lg-start align-items-lg-center">
+                
+                <div class="ps-md-4 col-12">
+                    <h1 class="display-4"> Lorem Ipsum </h1>
+                    <h2 class="h5">Lorem ipsum dolor, sit amet consectetur.</h2>
+                </div>            
+            </header>
+            
+            <!-- weird v -->
+            <div title="v" class="row">
+                <h2 class="col-12 text-center color-accent"><i class="fa-solid fa-chevron-down"></i></h2>            
+            </div>
+            
+            <!-- dates and lorem -->
+            
+            <section title="lorem number" class="row justify-content-evenly">
+                
+                <div class="col-2 col-sm-2 text-center border-bot-accent">
+                    <p>Lorem</p>
+                    <h3>12</h3>
+                </div>
+                
+                <div class="col-2 col-sm-2 text-center border-bot-accent">
+                    <p>Lorem</p>
+                    <h3>3213</h3>
+                </div>
+                
+                <div class="col-2 col-sm-2 text-center border-bot-accent">
+                    <p>Lorem</p>
+                    <h3>251</h3>
+                </div>
+                
+                <div class="col-2 col-sm-2 text-center border-bot-accent">
+                    <p>Lorem</p>
+                    <h3>93</h3>
+                </div>   
+                
+            </section>
+            
+        </div>
+        
+        
+        <!-- il resto della pagina è contenuto in questo container -->
+        
+        <div class="container">
+            
+            <!-- primo paragrafo e lunetta -->
+            <section title="lunetta" class="row vh-100 align-items-center">
+                
+                <div class="col-md-6">
+                    <h5 class="color-accent"> Lorem Ipsum</h5>
+                    <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea ipsum esse, beatae minima explicabo quo ullam tempore eligendi sed odit corrupti, asperiores saepe labore culpa quisquam dolor temporibus? Earum eaque neque molestias dolorem nemo consequatur rerum pariatur, maxime debitis exercitationem recusandae, a labore rem cupiditate cumque velit fuga quasi deserunt distinctio.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="./Prompt/media/moon2.jpg" class="img-fluid" alt="">
+                </div>
+                
+            </section>
+            
+            
+            <!-- Le tre colonne sinistra centro e destra -->
+            <section title="colonne" class="row justify-content-around align-items-center">
+                
+                <!-- Colonna sinistra -->
+                
+                <div class="col-md-4 pe-md-5">
+                    
+                    <h5 class="border-bot-accent">
+                        <i class="fa-solid fa-meteor color-accent pe-2"></i>
+                        Lorem
+                    </h5>
+                    <p class="pb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, consectetur doloremque ab nulla adipisci voluptas obcaecati quisquam iusto, sunt quaerat dolorum voluptatibus modi fugit officia.</p>
+                    
+                    <h5 class="border-bot-accent"><i class="fa-solid fa-rocket color-accent pe-2"></i>Lorem</h5>
+                    <p class="pb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, consectetur doloremque ab nulla adipisci voluptas obcaecati quisquam iusto, sunt quaerat dolorum voluptatibus modi fugit officia.</p>
+                    
+                </div>
+                
+                <!-- Colonna centrale -->
+                <div class="col-md-4 text-md-center px-md-5">
+                    
+                    <h5 class="border-bot-accent">
+                        <i class="fa-solid fa-sun color-accent pe-2"></i>
+                        Lorem
+                    </h5>
+                    <p class="pb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, consectetur doloremque ab nulla adipisci voluptas obcaecati quisquam iusto.</p>
+                    
+                </div>
+                
+                <!-- Colonna destra -->
+                <div class="col-md-4 text-md-end ps-md-5">
+                    
+                    <h5 class="border-bot-accent">
+                        <i class="fa-solid fa-user-astronaut color-accent pe-2"></i>
+                        Lorem
+                    </h5>
+                    <p class="ps-md-4 pb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, consectetur doloremque ab nulla adipisci voluptas obcaecati quisquam iusto, sunt quaerat dolorum voluptatibus modi fugit officia.</p>
+                    
+                    <h5 class="border-bot-accent">
+                        <i class="fa-solid fa-moon color-accent pe-2"></i>
+                        Lorem
+                    </h5>
+                    <p class="pb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, consectetur doloremque ab nulla adipisci voluptas obcaecati quisquam iusto, sunt quaerat dolorum voluptatibus modi fugit officia.</p>
+                    
+                </div>
+            </section>
+            
+            <!-- Sezione col razzo -->
+            <section title="razzo" class="row py-5">                
+                
+                <div class="col-6 d-flex flex-column justify-content-evenly">
+                    
+                    <section>
+                        <h5 class="color-accent">Lorem</h5>
+                        <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore repellendus quaerat quis inventore culpa, rerum ullam quod omnis non magni qui aliquid ad, sapiente iusto. Amet mollitia repellat tenetur officia!</p>
+                    </section>
+                    
+                    <section>
+                        <h5 class="color-accent">Lorem</h5>
+                        <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore repellendus quaerat quis inventore culpa, rerum ullam quod omnis non magni qui aliquid ad, sapiente iusto. Amet mollitia repellat tenetur officia!</p>
+                    </section>
+                    
+                    <section>
+                        <h5 class="color-accent">Lorem</h5>
+                        <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore repellendus quaerat quis inventore culpa, rerum ullam quod omnis non magni qui aliquid ad, sapiente iusto. Amet mollitia repellat tenetur officia!</p>
+                    </section>
+                </div>
+                
+                <div class="col-6 d-flex align-items-center">
+                    <img src="./Prompt/media/missile-2027068_1280.png" class="img-fluid vh-100" alt="">
+                </div>
+                
+            </section>
+            <!-- sezione fnale coi vari goto -->
+            <section class="row pt-5">
+
+                <!-- due colonne offset su quella di destra -->
+                
+                <div class="col-12 col-md-5 pe-md-2">
+                    <h4 class="color-accent">Lorem Ipsum Dolor</h4>
+                    <p class="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nobis expedita, debitis, numquam praesentium assumenda dolore dignissimos accusantium voluptatem obcaecati beatae repellat mollitia possimus saepe eos harum omnis vero adipisci? Voluptatibus quod quidem temporibus labore doloremque vero cumque sequi! Ea!</p>
+                    <div class="row justify-content-end">                        
+                        <div class="col-3 d-md-none">
+                            <a href="./index.html"> Go to...</a>
+                        </div>
+                        <div class="col-3 d-none d-md-block">
+                            <a href="./index.html"><div class="cornered-goto"></div></a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="col-12 col-md-5 offset-md-2 pe-md-2">
+                    <h4 class="color-accent">Lorem Ipsum Dolor</h4>
+                    <p class="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nobis expedita, debitis, numquam praesentium assumenda dolore dignissimos accusantium voluptatem obcaecati beatae repellat mollitia possimus saepe eos harum omnis vero adipisci? Voluptatibus quod quidem temporibus labore doloremque vero cumque sequi! Ea!</p>
+                    <div class="row justify-content-end">                        
+                        <div class="col-3 d-md-none">
+                            <a href="./index.html"> Go to...</a>
+                        </div>
+                        <div class="col-3 d-none d-md-block">
+                            <a href="./index.html"><div class="cornered-goto"></div></a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- due colonne offset su quella di destra -->
+                
+                 <div class="col-12 col-md-5 pe-md-2">
+                    <h4 class="color-accent">Lorem Ipsum Dolor</h4>
+                    <p class="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nobis expedita, debitis, numquam praesentium assumenda dolore dignissimos accusantium voluptatem obcaecati beatae repellat mollitia possimus saepe eos harum omnis vero adipisci? Voluptatibus quod quidem temporibus labore doloremque vero cumque sequi! Ea!</p>
+                    <div class="row justify-content-end">                        
+                        <div class="col-3 d-md-none">
+                            <a href="./index.html"> Go to...</a>
+                        </div>
+                        <div class="col-3 d-none d-md-block">
+                            <a href="./index.html"><div class="cornered-goto"></div></a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="col-12 col-md-5 offset-md-2 pe-md-2">
+                    <h4 class="color-accent">Lorem Ipsum Dolor</h4>
+                    <p class="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nobis expedita, debitis, numquam praesentium assumenda dolore dignissimos accusantium voluptatem obcaecati beatae repellat mollitia possimus saepe eos harum omnis vero adipisci? Voluptatibus quod quidem temporibus labore doloremque vero cumque sequi! Ea!</p>
+                    <div class="row justify-content-end">                        
+                        <div class="col-3 d-md-none">
+                            <a href="./index.html"> Go to...</a>
+                        </div>
+                        <div class="col-3 d-none d-md-block">
+                            <a href="./index.html"><div class="cornered-goto"></div></a>
+                        </div>
+                    </div>
+                </div>
+                
+                 <!-- due colonne offset su quella di destra -->
+                
+                 <div class="col-12 col-md-5 pe-md-2">
+                    <h4 class="color-accent">Lorem Ipsum Dolor</h4>
+                    <p class="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nobis expedita, debitis, numquam praesentium assumenda dolore dignissimos accusantium voluptatem obcaecati beatae repellat mollitia possimus saepe eos harum omnis vero adipisci? Voluptatibus quod quidem temporibus labore doloremque vero cumque sequi! Ea!</p>
+                    <div class="row justify-content-end">                        
+                        <div class="col-3 d-md-none">
+                            <a href="./index.html"> Go to...</a>
+                        </div>
+                        <div class="col-3 d-none d-md-block">
+                            <a href="./index.html"><div class="cornered-goto"></div></a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="col-12 col-md-5 offset-md-2 pe-md-2">
+                    <h4 class="color-accent">Lorem Ipsum Dolor</h4>
+                    <p class="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nobis expedita, debitis, numquam praesentium assumenda dolore dignissimos accusantium voluptatem obcaecati beatae repellat mollitia possimus saepe eos harum omnis vero adipisci? Voluptatibus quod quidem temporibus labore doloremque vero cumque sequi! Ea!</p>
+                    <div class="row justify-content-end">                        
+                        <div class="col-3 d-md-none">
+                            <a href="./index.html"> Go to...</a>
+                        </div>
+                        <div class="col-3 d-none d-md-block">
+                            <a href="./index.html"><div class="cornered-goto"></div></a>
+                        </div>
+                    </div>
+                </div>
+                            
+            </section>
+            
+        </div>
+    </main>
+    
+    <footer  class="container-fluid bg-sunrise">
+        
+        <div class="row py-5 my-md-5">
+            
+        </div>
+
+        <div class="row py-md-5 my-md-5">
+            
+        </div>
+
+        <div class="row py-md-5 my-md-5">
+            
+        </div>
+
+        <div class="row px-md-5 pt-5 mt-5 pb-5 pb-md-0">
+
+            <div class="col-md-6 p-md-5"><h4 class="color-accent">Lorem Ipsum</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero saepe numquam possimus, omnis architecto voluptatum dolores doloribus minus inventore vitae, nisi cupiditate dignissimos.</p></div>
+            <div class="col-md-6 d-flex justify-content-evenly align-items-center">
+
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+
+        </div>
+
+        <div class="container-fluid pb-5">
+            
+            <!-- Questa è la linea in fondo alla pagina, uno sfondo in color-accent con un linear gradient sopra -->
+
+            <div class="line-end"> </div>                
+
+
+        </div>
+
+    </footer>
+    
+    
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+</body>
+</html>
