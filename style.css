@@ -1,6 +1,7 @@
 :root {
 	--clr: hsl(70, 73%, 88%);
 	--bg: hsl(240, 93%, 6%);
+	--accent: hsl(38, 49%, 62%);
 }
 li,
 p {
@@ -10,8 +11,13 @@ p {
 	background-color: var(--bg);
 	color: var(--clr);
 }
-.body-clr a {
-	color: rgb(206, 206, 112);
+a {
+	color: var(--accent);
+	text-decoration: dashed underline;
+}
+a:hover {
+	color: var(--clr);
+	text-decoration: underline;
 }
 .p-2em {
 	padding: 2em;
